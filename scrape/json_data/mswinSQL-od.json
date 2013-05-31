@@ -1,0 +1,1465 @@
+
+
+  {
+	"vers": 0.01,
+	"config": {
+		"rate": "perhr",
+		"valueColumns": [
+			"mswinSQL"
+		],
+		"currencies": [
+			"USD"
+		],
+		"regions": [
+			{
+				"region": "us-east",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.629"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.744"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.974"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.434"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.580"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.160"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.084"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.654"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.307"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "2.167"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterComputeI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "2.390"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "4.410"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterHiMemODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "7.250"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterGPUI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.850"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiIoODI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "4.607"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiStoreODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "8.350"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "us-west-2",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.629"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.744"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.974"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.434"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.580"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.160"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.084"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.654"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.307"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "2.167"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterComputeI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "4.410"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterHiMemODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "7.250"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterGPUI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiIoODI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "4.607"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiStoreODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "8.350"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "us-west",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.639"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.764"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.014"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.514"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.660"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.320"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.140"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.766"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.531"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "2.251"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "eu-ireland",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.629"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.744"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.974"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.434"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.580"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.160"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.084"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.654"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.307"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "2.167"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterComputeI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "4.850"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterHiMemODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "7.250"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterGPUI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": " 3.85"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiIoODI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "4.607"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiStoreODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "8.350"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "apac-sin",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.629"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.744"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.974"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.434"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.580"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.160"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.084"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.654"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.307"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "2.167"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "apac-tokyo",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.706"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.821"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.051"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.511"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.670"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.340"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.161"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.731"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.462"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "2.322"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "apac-syd",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.629"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.744"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.974"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.434"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.580"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.160"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.084"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.654"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.307"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "2.167"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "sa-east-1",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.664"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "0.814"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.114"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.714"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.860"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "3.720"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "1.314"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "2.114"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "4.227"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQL",
+										"prices": {
+											"USD": "2.427"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+
+
+

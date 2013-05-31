@@ -1,0 +1,1465 @@
+
+
+  {
+	"vers": 0.01,
+	"config": {
+		"rate": "perhr",
+		"valueColumns": [
+			"mswinSQLWeb"
+		],
+		"currencies": [
+			"USD"
+		],
+		"regions": [
+			{
+				"region": "us-east",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.155"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.270"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.500"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.960"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.020"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.040"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.070"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.610"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.180"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.360"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.325"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.220"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterComputeI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.713"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "3.175"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterHiMemODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "4.044"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterGPUI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.703"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiIoODI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "3.660"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiStoreODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "5.144"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "us-west-2",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.155"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.270"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.500"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.960"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.020"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.040"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.070"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.610"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.180"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.360"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.325"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.220"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterComputeI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "3.175"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterHiMemODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "4.044"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterGPUI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiIoODI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "3.660"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiStoreODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "5.144"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "us-west",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.165"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.290"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.540"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.040"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.100"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.200"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.075"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.666"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.292"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.584"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.346"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.304"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "eu-ireland",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.155"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.270"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.500"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.960"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.020"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.040"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.075"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.610"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.180"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.360"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.325"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.220"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterComputeI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "3.175"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterHiMemODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "4.044"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterGPUI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.703"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiIoODI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "3.660"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiStoreODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "5.144"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "apac-sin",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.155"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.270"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.500"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.960"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.020"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.040"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.075"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.610"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.180"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.360"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.325"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.220"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "apac-tokyo",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.161"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.276"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.506"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.966"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.026"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.052"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.081"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.616"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.186"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.372"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.331"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.232"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "apac-syd",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.155"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.270"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.500"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.960"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.020"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.040"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.075"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.610"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.180"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.360"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.325"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.220"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "sa-east-1",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.190"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.340"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.640"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.240"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.300"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "2.600"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.077"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.840"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.640"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "3.280"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "0.390"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswinSQLWeb",
+										"prices": {
+											"USD": "1.480"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+
+
+

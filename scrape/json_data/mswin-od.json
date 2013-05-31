@@ -1,0 +1,1465 @@
+
+
+  {
+	"vers": 0.01,
+	"config": {
+		"rate": "perhr",
+		"valueColumns": [
+			"mswin"
+		],
+		"currencies": [
+			"USD"
+		],
+		"regions": [
+			{
+				"region": "us-east",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.091"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.182"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.364"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.728"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.780"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.560"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.020"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.510"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.020"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.040"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.225"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.900"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterComputeI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.610"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.970"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterHiMemODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "3.831"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterGPUI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.600"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiIoODI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "3.580"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiStoreODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "4.931"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "us-west-2",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.091"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.182"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.364"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.728"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.780"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.560"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.020"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.510"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.020"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.040"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.225"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.900"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterComputeI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.970"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterHiMemODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "3.831"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterGPUI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "N/A"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiIoODI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "3.580"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiStoreODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "4.931"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "us-west",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.096"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.192"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.384"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.768"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.830"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.660"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.035"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.560"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.120"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.240"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.245"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.980"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "eu-ireland",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.091"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.182"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.364"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.728"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.780"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.560"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.035"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.510"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.020"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.040"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.225"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.900"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterComputeI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.970"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterHiMemODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "3.831"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "clusterGPUI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.60"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiIoODI",
+						"sizes": [
+							{
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "3.580"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiStoreODI",
+						"sizes": [
+							{
+								"size": "xxxxxxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "4.931"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "apac-sin",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.115"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.230"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.460"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.920"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.980"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.960"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.020"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.570"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.140"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.280"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.285"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.140"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "apac-tokyo",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.115"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.230"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.460"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.920"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.980"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.960"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.035"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.570"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.140"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.280"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.285"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.140"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "apac-syd",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.115"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.230"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.460"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.920"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.980"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.960"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.020"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.570"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.140"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.280"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.285"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.140"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}, {
+				"region": "sa-east-1",
+				"instanceTypes": [
+					{
+						"type": "stdODI",
+						"sizes": [
+							{
+								"size": "sm",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.111"
+										}
+									}
+								]
+							}, {
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.222"
+										}
+									}
+								]
+							}, {
+								"size": "lg",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.444"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.888"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "secgenstdODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.960"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.920"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "uODI",
+						"sizes": [
+							{
+								"size": "u",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.037"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiMemODI",
+						"sizes": [
+							{
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.640"
+										}
+									}
+								]
+							}, {
+								"size": "xxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.280"
+										}
+									}
+								]
+							}, {
+								"size": "xxxxl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "2.560"
+										}
+									}
+								]
+							}
+						]
+					}, {
+						"type": "hiCPUODI",
+						"sizes": [
+							{
+								"size": "med",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "0.280"
+										}
+									}
+								]
+							}, {
+								"size": "xl",
+								"valueColumns": [
+									{
+										"name": "mswin",
+										"prices": {
+											"USD": "1.120"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+
+
+
